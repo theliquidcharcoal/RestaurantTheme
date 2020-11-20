@@ -3,7 +3,7 @@
 	/* ==========================  Define variables ========================== */
 
 	#Your e-mail address
-	define("__TO__", "besimdauti24@gmail.com");
+	define("__TO__", "parthrpatel80@gmail.com");
 
 	#Message subject
 	define("__SUBJECT__", "examples.com = From:");
@@ -64,22 +64,22 @@
 			</head>
 			<body>
 			  <table style="width: 500px; font-family: arial; font-size: 14px;" border="1">
-				<tr style="height: 32px;">
-				  <th align="right" style="width:150px; padding-right:5px;">Name:</th>
-				  <td align="left" style="padding-left:5px; line-height: 20px;">'. $name .'</td>
-				</tr>
-				<tr style="height: 32px;">
-				  <th align="right" style="width:150px; padding-right:5px;">E-mail:</th>
-				  <td align="left" style="padding-left:5px; line-height: 20px;">'. $mail .'</td>
-				</tr>
-				<tr style="height: 32px;">
-				  <th align="right" style="width:150px; padding-right:5px;">Website:</th>
-				  <td align="left" style="padding-left:5px; line-height: 20px;">'. $website .'</td>
-				</tr>
-				<tr style="height: 32px;">
-				  <th align="right" style="width:150px; padding-right:5px;">Comment:</th>
-				  <td align="left" style="padding-left:5px; line-height: 20px;">'. $comment .'</td>
-				</tr>
+          <tr style="height: 32px;">
+            <th align="right" style="width:150px; padding-right:5px;">Name:</th>
+            <td align="left" style="padding-left:5px; line-height: 20px;">'. $name .'</td>
+          </tr>
+          <tr style="height: 32px;">
+            <th align="right" style="width:150px; padding-right:5px;">E-mail:</th>
+            <td align="left" style="padding-left:5px; line-height: 20px;">'. $mail .'</td>
+          </tr>
+          <tr style="height: 32px;">
+            <th align="right" style="width:150px; padding-right:5px;">Website:</th>
+            <td align="left" style="padding-left:5px; line-height: 20px;">'. $website .'</td>
+          </tr>
+          <tr style="height: 32px;">
+            <th align="right" style="width:150px; padding-right:5px;">Comment:</th>
+            <td align="left" style="padding-left:5px; line-height: 20px;">'. $comment .'</td>
+          </tr>
 			  </table>
 			</body>
 			</html>
