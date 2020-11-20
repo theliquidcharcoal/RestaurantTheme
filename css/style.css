@@ -21,7 +21,13 @@
 -------------------------------------------------*/
 
 
-@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Playfair+Display:400,400i,700,700i,900,900i|Rubik:300,300i,400,400i,500,700');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Playfair+Display:400,400i,700,700i,900,900i|Montserrat:300,300i,400,400i,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Oswald:wght@300;400;500&display=swap');
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
 
 
 /*-------------------------------------------------------*/
@@ -108,7 +114,7 @@ website:    http://www.themepunch.com
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  padding: 30px 15px 25px;
+  /* padding: 30px 15px 25px; */
   letter-spacing: 2.5px;
 }
 .navbar-nav {
@@ -120,7 +126,7 @@ website:    http://www.themepunch.com
 .navbar-nav > li > a {
   color: #999999 !important;
   font-size: 12px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
@@ -203,7 +209,7 @@ header.active .navbar-nav > li > a.open-fixed-sidebar {
 .form-search input[type="search"] {
   font-size: 15px;
   color: #999999;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   line-height: 24px;
   margin: 0 0 10px;
@@ -247,7 +253,7 @@ header.active .navbar-nav > li > a.open-fixed-sidebar {
 p {
   font-size: 15px;
   color: #999999;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   line-height: 24px;
   margin: 0 0 10px;
@@ -319,7 +325,7 @@ h2 {
   font-weight: 400;
   font-size: 20px;
   line-height: 20px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0px;
   border-width: 0px;
   border-style: none;
@@ -333,7 +339,7 @@ h2 {
   font-size: 72px;
   line-height: 70px;
   font-weight: 400;
-  font-family: 'Alex Brush', cursive;
+  font-family: 'Oswald', sans-serif;
   background-color: none;
   text-decoration: none;
   text-transform: initial;
@@ -434,7 +440,7 @@ section#about-section .about-box.left-content .rest-about-box {
 /*-------------------------------------------------*/
 section#special-section {
   padding: 100px 0;
-  background: url('../upload/ban1.jpg') center center;
+  background: url('../images/dosa_bg.jpg') center center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -688,7 +694,7 @@ section#menu-section .menu-box ul.menu-list-items li:last-child {
 /*-------------------------------------------------*/
 section#reservation-section {
   padding: 100px 0;
-  background: url('../upload/ban4.jpg') center center;
+  background: url('../images/make_reservation.jpg') center center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -710,7 +716,7 @@ section#reservation-section .reservation-box form.reservation-form label {
   display: block;
   color: #fff;
   font-size: 14px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   margin-bottom: 12px;
 }
@@ -734,7 +740,7 @@ section#reservation-section .reservation-box form.reservation-form input[type="s
   background: transparent;
   color: #f4b350;
   font-size: 12px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   border: 1px solid #f4b350;
@@ -990,7 +996,7 @@ ul.filter li a {
   -o-transition: all 0.2s ease-in-out;
   color: #999999;
   font-size: 14px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   line-height: 20px;
   text-transform: uppercase;
@@ -1017,7 +1023,7 @@ ul.filter li:first-child:before {
 /*-------------------------------------------------*/
 section#contact-section .upper-part {
   padding: 100px 0 60px;
-  background: url('../upload/ban3.jpg') center center;
+  background: url('../images/GetInTouch.jpg') center center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1108,7 +1114,7 @@ section#contact-section .map {
 #contact-form input[type="submit"] {
   color: #999999;
   font-size: 12px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   background: transparent;
@@ -1136,7 +1142,7 @@ section#contact-section .map {
 .alert-danger {
   padding: 10px 20px;
   margin-top: 20px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 300;
 }
@@ -1263,7 +1269,7 @@ section.blog-section .blog-box .blog-post ul.share-post li a:hover {
   text-align: center;
   color: #999999;
   font-size: 14px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   text-transform: capitalize;
   letter-spacing: 1.4px;
@@ -1411,7 +1417,7 @@ div.related-posts .news-post:hover .hover-box {
 }
 .comment-area-box > ul li .comment-box .comment-content h3 span {
   float: right;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 12px;
   color: #222222;
@@ -1419,7 +1425,7 @@ div.related-posts .news-post:hover .hover-box {
 .comment-area-box > ul li .comment-box .comment-content a {
   font-size: 12px;
   color: #222222;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   text-transform: uppercase;
   margin: 0;
@@ -1448,7 +1454,7 @@ div.related-posts .news-post:hover .hover-box {
   display: block;
   font-size: 13px;
   color: #999999;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   font-weight: 300;
   margin: 0 0 30px;
@@ -1479,7 +1485,7 @@ div.related-posts .news-post:hover .hover-box {
 .contact-form-box #comment-form input[type="submit"] {
   color: #f4b350;
   font-size: 13px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   padding: 12px 30px 11px;
   text-transform: uppercase;
@@ -1503,7 +1509,7 @@ footer {
 }
 footer p.copyright {
   padding: 20px 15px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 0;
 }
 /*-------------------------------------------------*/
@@ -1648,4 +1654,24 @@ footer p.copyright {
   section#menu-section .menu-box .tab-content {
     padding: 30px 20px;
   }
+}
+
+
+/* Layout Classes */
+.d-flex {
+  display: flex !important;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.brand-logo{
+  width: 115px;
+  height: auto;
+
 }
