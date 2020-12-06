@@ -1093,10 +1093,15 @@
 	<!-- Revolution slider -->
 	<script>
 
+    const urlData = "https://theliquidcharcoal.github.io/RestaurantTheme/js/menuData.json";
+    async function getData(){
+      const response = await fetch(urlData);
+      const data = await response.json();
+      console.log(data);
+    };
 		jQuery(document).ready(function() {
-      $.getJSON('js/menuData.json', function(data) {
-        console.log("data" + JSON.parse(data))
-      });
+
+      getData();
 						
 			jQuery('.tp-banner').show().revolution(
 			{
