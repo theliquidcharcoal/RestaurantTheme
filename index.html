@@ -1094,12 +1094,8 @@
 	<script>
 
 		jQuery(document).ready(function() {
-
-
-
-
       $.getJSON('js/menuData.json', function(data) {
-        console.log(JSON.parse(data))
+        console.log("data" + JSON.parse(data))
       });
 						
 			jQuery('.tp-banner').show().revolution(
