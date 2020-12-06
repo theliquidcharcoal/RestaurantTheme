@@ -190,52 +190,6 @@ $(document).ready(function($) {
 			}
 
 		});
-	
-	
-	/* ---------------------------------------------------------------------- */
-	/*	Contact Map
-	/* ---------------------------------------------------------------------- */
-
-	var fenway = [42.345573,-71.038326]; //Change a map coordinate here!
-	var markerPosition = [42.345573,-71.038326]; //Change a map marker here!
-	$('.map')
-		.gmap3({
-			center:fenway,
-			zoom: 14,
-			mapTypeId: "shadeOfGrey", // to select it directly
-			scrollwheel: false,
-			mapTypeControlOptions: {
-				mapTypeIds: [google.maps.MapTypeId.ROADMAP, "shadeOfGrey"]
-			}
-		})
-		.styledmaptype(
-		"shadeOfGrey",
-		[
-			{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":60}]},
-			{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":100}]},
-			{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},
-			{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":90}]},
-			{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":87},{"weight":1.2}]},
-			{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f8f2e4"},{"lightness":0}]},
-			{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#b4e3c7"},{"lightness":0}]},
-			{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#d9ceac"},{"lightness":0}]},
-			{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#d2c59d"},{"lightness":100},{"weight":0.2}]},
-			{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":0}]},
-			{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#efebe4"},{"lightness":0}]},
-			{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":0}]},
-			{"featureType":"water","elementType":"geometry","stylers":[{"color":"#bad8fb"},{"lightness":0}]}
-		],
-		{name: "Shades of Grey"});
-		$('.map')
-			.gmap3({
-				center: fenway,
-				zoom: 13,
-				mapTypeId : google.maps.MapTypeId.ROADMAP
-			})
-			.marker({
-				position: markerPosition,
-				icon: 'images/marker.png'
-		});
 
 	/*-------------------------------------------------*/
 	/* =  count increment

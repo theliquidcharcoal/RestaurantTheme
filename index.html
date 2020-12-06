@@ -1067,8 +1067,6 @@
 					</div>
 				</div>
 			</div>
-
-			<div class="map"></div>
 		</section>
 		<!-- End contact section -->
 
@@ -1085,19 +1083,24 @@
 	<!-- End Container -->
 
 	<script src="js/plato-plugins.min.js"></script>
-    <script src="js/jquery.themepunch.tools.min.js"></script>
-    <script src="js/jquery.themepunch.revolution.min.js"></script>
+  <script src="js/jquery.themepunch.tools.min.js"></script>
+  <script src="js/jquery.themepunch.revolution.min.js"></script>
 	<script src="js/jquery.appear.js"></script>
 	<script src="js/jquery.countTo.js"></script>
 	<script src="js/waypoint.min.js"></script>
-  	<script src="http://maps.google.com/maps/api/js?key=AIzaSyCRkKziEmuE8xd4QOCxCkxecObkbHgOlRM&amp;sensor=false&amp;language=en"></script>
-	<script src="js/gmap3.min.js"></script>
 	<script src="js/script.js"></script>
 
 	<!-- Revolution slider -->
 	<script>
 
 		jQuery(document).ready(function() {
+
+
+
+
+      $.getJSON('js/menuData.json', function(data) {
+        console.log(JSON.parse(data))
+      });
 						
 			jQuery('.tp-banner').show().revolution(
 			{
