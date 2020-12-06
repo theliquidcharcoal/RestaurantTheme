@@ -379,7 +379,7 @@
 						<div role="tabpanel" class="tab-pane active" id="lunch">
 							<div class="row">
 								<div class="col-md-6">
-									<ul class="menu-list-items">
+									<ul class="menu-list-items" id="sandwiches-data">
 										<li>
 											<div class="list-image">
 												<img src="upload/t1.jpg" alt="">
@@ -1072,7 +1072,7 @@
 
 		<!-- footer 
 			================================================== -->
-		<footer>
+		<footer id="footer">
 			<p class="copyright">
 				&copy; Copyright 2020. "ui-awesome" by <a href="www.uiawesome.com">uiAwesome.com</a>. All rights reserved.
 			</p>
@@ -1094,12 +1094,13 @@
 	<script>
 
 		jQuery(document).ready(function() {
-
-
-
-
       $.getJSON('js/menuData.json', function(data) {
-        console.log(JSON.parse(data))
+        console.log("data" + JSON.parse(data))
+				$.each(data, function(key, value) {
+					$('#footer').append('<h1>'+value.type+'</h1>')
+
+				})
+
       });
 						
 			jQuery('.tp-banner').show().revolution(
